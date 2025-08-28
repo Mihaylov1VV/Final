@@ -1,0 +1,24 @@
+@model List<Attraction>
+
+@{
+    ViewData["Title"] = "Достопримечательности Сарапула";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    @foreach (var attraction in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="@attraction.ImageUrl" class="card-img-top" alt="@attraction.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@attraction.Name</h5>
+                    <p class="card-text">@attraction.Description</p>
+                    <p class="card-text"><small class="text-muted">@attraction.Address</small></p>
+                    <a asp-action="Details" asp-route-id="@attraction.Id" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

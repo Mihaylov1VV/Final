@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Город Сарапул";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.WelcomeMessage</h1>
+    <p>@ViewBag.CityDescription</p>
+    
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">История</h5>
+                    <p class="card-text">Узнайте богатую историю нашего города</p>
+                    <a asp-controller="History" asp-action="Index" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Достопримечательности</h5>
+                    <p class="card-text">Откройте для себя интересные места Сарапула</p>
+                    <a asp-controller="Attractions" asp-action="Index" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Новости</h5>
+                    <p class="card-text">Будьте в курсе событий города</p>
+                    <a asp-controller="News" asp-action="Index" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

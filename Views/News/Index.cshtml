@@ -1,0 +1,72 @@
+@model List<NewsItem>
+
+@{
+    ViewData["Title"] = "Новости Сарапула";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (ViewBag.Categories != null)
+{
+    <div class="mb-4">
+        <h4>Категории:</h4>
+        <div class="btn-group">
+            <a asp-action="Index" 
+               class="btn btn-@(ViewBag.CurrentCategoryId == null ? "primary" : "outline-primary")">
+                Все новости
+            </a>
+            @foreach (var category in ViewBag.Categories)
+            {
+                <a asp-action="Index" asp-route-categoryId="@category.Id"
+                   class="btn btn-@(ViewBag.CurrentCategoryId == category.Id ? "primary" : "outline-primary")">
+                    @category.Name
+                </a>
+            }
+        </div>
+    </div>
+}
+
+<div class="row">
+    @foreach (var newsItem in Model)
+    {
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+                <img src="@newsItem.ImageUrl" class="card-img-top" alt="@newsItem.Title" 
+                     onerror="this.src='/images/temp/default-news.jpg'">
+                <div class="card-body">
+                    <h5 class="card-title">@newsItem.Title</h5>
+                    <p class="card-text">@(newsItem.ShortDescription ?? newsItem.Content.Substring(0, Math.Min(100, newsItem.Content.Length)) + "...")</p>
+                    <p class="text-muted small">
+                        <i class="bi bi-calendar"></i> 
+                        @newsItem.PublishDate.ToString("dd.MM.yyyy")
+                        @if (newsItem.Category != null)
+                        {
+                            <span class="badge bg-secondary ms-2">@newsItem.Category.Name</span>
+                        }
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a asp-action="Details" asp-route-id="@newsItem.Id" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- Пагинация -->
+@if (ViewBag.TotalPages > 1)
+{
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                    <a class="page-link" 
+                       asp-action="Index" 
+                       asp-route-categoryId="@ViewBag.CurrentCategoryId"
+                       asp-route-page="@i">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
