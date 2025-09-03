@@ -12,33 +12,25 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Настройка Identity
+// Настройка Identity - БЕЗ .AddDefaultUI()
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
-{
-    // Настройки пароля
-    options.Password.RequireDigit = true;
-    options.Password.RequireLowercase = true;
-    options.Password.RequireUppercase = true;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequiredLength = 6;
-
-    // Настройки пользователя
-    options.User.RequireUniqueEmail = true;
-
-    // Настройки блокировки
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-    options.Lockout.MaxFailedAccessAttempts = 5;
-})
-.AddEntityFrameworkStores<AppDbContext>()
-.AddDefaultTokenProviders()
-.AddDefaultUI(); // Для поддержки стандартного UI Identity
+    {
+        options.Password.RequireDigit = true;
+        options.Password.RequireLowercase = true;
+        options.Password.RequireUppercase = true;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequiredLength = 6;
+        options.User.RequireUniqueEmail = true;
+    })
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
 
 // Настройка аутентификации cookies
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.Cookie.HttpOnly = true;
     options.ExpireTimeSpan = TimeSpan.FromDays(30);
-    options.LoginPath = "/Account/Login";
+    options.LoginPath = "/Account/Login"; // Наши кастомные пути
     options.AccessDeniedPath = "/Account/AccessDenied";
     options.SlidingExpiration = true;
 });
@@ -65,8 +57,8 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-// Добавляем маршруты для Razor Pages Identity
-app.MapRazorPages();
+// УБРАТЬ эту строку, так как мы убрали .AddDefaultUI()
+// app.MapRazorPages();
 
 // Создание ролей и администратора при первом запуске
 using (var scope = app.Services.CreateScope())

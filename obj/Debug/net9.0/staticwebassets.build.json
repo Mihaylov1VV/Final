@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fv9Yaxu6wAHpa3EpXh58c4cLwvZy2KkE91WUP6gWtIw=",
+  "Hash": "i5tSQARmvqulLlqY4we0A037ldcxw3lpUo1fSoQjJoY=",
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -2348,12 +2348,12 @@
       "OriginalItemSpec": "E:\\CSharp\\Sarapul\\MyWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-b9sayid5wm.gz",
+      "Identity": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-lig9ye18xv.gz",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=lig9ye18xv}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2362,8 +2362,8 @@
       "RelatedAsset": "E:\\CSharp\\Sarapul\\MyWebApp\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0suozzrugb",
-      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "Fingerprint": "vlqqsldsp2",
+      "Integrity": "zRY8J55T7Dj7LOP3mi+PqQALBU7K4JtRfhp2VNbzbkA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\CSharp\\Sarapul\\MyWebApp\\wwwroot\\css\\site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "lig9ye18xv",
+      "Integrity": "3SXxjdgng7V6MsTLXwYqEXibb+4ik6S1plu77R3JRw4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5353,167 +5353,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003134796238"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 18 Aug 2025 16:54:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "E:\\CSharp\\Sarapul\\MyWebApp\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 18 Aug 2025 16:54:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 18 Aug 2025 16:54:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\css\\site.css",
       "Selectors": [],
@@ -5552,12 +5391,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-b9sayid5wm.gz",
+      "AssetFile": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-lig9ye18xv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.000399201597"
         }
       ],
       "ResponseHeaders": [
@@ -5567,15 +5406,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "2504"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"zRY8J55T7Dj7LOP3mi+PqQALBU7K4JtRfhp2VNbzbkA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Aug 2025 16:54:51 GMT"
+          "Value": "Wed, 03 Sep 2025 17:54:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5595,13 +5434,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"3SXxjdgng7V6MsTLXwYqEXibb+4ik6S1plu77R3JRw4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-3SXxjdgng7V6MsTLXwYqEXibb+4ik6S1plu77R3JRw4="
         }
       ]
     },
@@ -5616,7 +5455,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "8395"
         },
         {
           "Name": "Content-Type",
@@ -5624,11 +5463,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"3SXxjdgng7V6MsTLXwYqEXibb+4ik6S1plu77R3JRw4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Aug 2025 16:54:51 GMT"
+          "Value": "Wed, 03 Sep 2025 17:54:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5638,13 +5477,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-3SXxjdgng7V6MsTLXwYqEXibb+4ik6S1plu77R3JRw4="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-b9sayid5wm.gz",
+      "AssetFile": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-lig9ye18xv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5653,7 +5492,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "2504"
         },
         {
           "Name": "Content-Type",
@@ -5661,11 +5500,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"zRY8J55T7Dj7LOP3mi+PqQALBU7K4JtRfhp2VNbzbkA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 18 Aug 2025 16:54:51 GMT"
+          "Value": "Wed, 03 Sep 2025 17:54:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5683,7 +5522,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-zRY8J55T7Dj7LOP3mi+PqQALBU7K4JtRfhp2VNbzbkA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.lig9ye18xv.css",
+      "AssetFile": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-lig9ye18xv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000399201597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2504"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRY8J55T7Dj7LOP3mi+PqQALBU7K4JtRfhp2VNbzbkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 17:54:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3SXxjdgng7V6MsTLXwYqEXibb+4ik6S1plu77R3JRw4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lig9ye18xv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3SXxjdgng7V6MsTLXwYqEXibb+4ik6S1plu77R3JRw4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.lig9ye18xv.css",
+      "AssetFile": "E:\\CSharp\\Sarapul\\MyWebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3SXxjdgng7V6MsTLXwYqEXibb+4ik6S1plu77R3JRw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 17:54:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lig9ye18xv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3SXxjdgng7V6MsTLXwYqEXibb+4ik6S1plu77R3JRw4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.lig9ye18xv.css.gz",
+      "AssetFile": "E:\\CSharp\\Sarapul\\MyWebApp\\obj\\Debug\\net9.0\\compressed\\fc4x9g7hx4-lig9ye18xv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRY8J55T7Dj7LOP3mi+PqQALBU7K4JtRfhp2VNbzbkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 03 Sep 2025 17:54:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lig9ye18xv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRY8J55T7Dj7LOP3mi+PqQALBU7K4JtRfhp2VNbzbkA="
         }
       ]
     },
@@ -34797,7 +34797,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34858,7 +34858,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34903,7 +34903,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34958,7 +34958,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35019,7 +35019,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35064,7 +35064,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35119,7 +35119,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35172,7 +35172,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35209,7 +35209,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35256,7 +35256,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35309,7 +35309,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35346,7 +35346,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 18:15:22 GMT"
+          "Value": "Wed, 03 Sep 2025 19:24:18 GMT"
         },
         {
           "Name": "Cache-Control",
